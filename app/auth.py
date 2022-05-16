@@ -10,7 +10,7 @@ def login():
 
 
 
-@auth.route("/Sign-up")
+@auth.route("/sign-up")
 def sign_up():
     return "Sign-Up"
 
