@@ -11,11 +11,11 @@ def login():
 
 
 @auth.route("/Sign-up")
-def login():
-    return "Login"
+def sign_up():
+    return "Sign-Up"
 
 
 
 @auth.route("/logout")
-def login():
-    return "Login"
+def logout():
+    return "Logout"
