@@ -1,8 +1,8 @@
 {%extends "base.html"%}
-{%block title%}Home{%endblock%}
+{%block title%}sign up{%endblock%}
 {%block content%}
 <form action="" method="POST">
-    <h3 align="centre">Login</h3>
+    <h3 align="centre">Sign Up</h3>
     <div class="form-group">
       <label for="email">Email Address</label>
       <input
@@ -12,17 +12,33 @@
         class="form-control"
         placeholder="Enter Email"
       />
-      <label for="password">Password</label>
+      <label for="username">Username</label>
       <input
         type="text"
-        id="password"
-        name="password"
+        id="username"
+        name="username"
+        class="form-control"
+        placeholder="Enter Username"
+      />
+      <label for="password1">Password</label>
+      <input
+        type="text"
+        id="password1"
+        name="password1"
         class="form-control"
         placeholder="Enter Password"
       />
+      <label for="password2">Password</label>
+      <input
+        type="text"
+        id="password2"
+        name="password2"
+        class="form-control"
+        placeholder="Confirm Password"
+      />
       <br />
       <div align="centre">
-        <button class="btn btn-primary" type="submit">Login</button>
+        <button class="btn btn-primary" type="submit">Sign Up</button>
       </div>
     </div>
   </form>
