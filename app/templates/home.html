@@ -1,3 +1,7 @@
 {%extends "base.html"%}
 {%block title%}Home{%endblock%}
-{%block content%}{%endblock%}
+{%block content%}
+{%for post in posts%}
+{{post.text}}{{post.user.username}}
+{%endfor%}
+{%endblock%}
